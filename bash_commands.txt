@@ -1,5 +1,28 @@
+use commands cd and ls to move around in bash
+mkdir to create a new directory
+
+---
 git init
-git config user.name "gab-mat"
-git config user.email "gabriel.matejka@hotmail.com"
+
+create a new file in the folder: test.txt
+
 git add *
-git commit -m "some init msg"
+git status
+git commit -m "This is a commit!"
+---
+
+
+git checkout -b branch_01
+git checkout master
+git branch
+
+
+--> Create a new repo in github
+git remote add origin https://github.com/gab-mat/masterthesis2.git
+git push -u origin master
+
+
+git remote -v
+git remote rm origin
+
+
