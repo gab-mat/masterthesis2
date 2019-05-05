@@ -1,0 +1,43 @@
+[33mcommit 3be5f389502039da178dfb1ab0c0ee152661a5e7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: gab-mat <gabriel.matejka@hotmail.com>
+Date:   Sun May 5 17:43:09 2019 +0200
+
+    This is a commit2!
+
+[1mdiff --git a/bash_commands.txt b/bash_commands.txt[m
+[1mindex 50e278f..02307dd 100644[m
+[1m--- a/bash_commands.txt[m
+[1m+++ b/bash_commands.txt[m
+[36m@@ -1,5 +1,28 @@[m
+[32m+[m[32muse commands cd and ls to move around in bash[m
+[32m+[m[32mmkdir to create a new directory[m
+[32m+[m
+[32m+[m[32m---[m
+ git init[m
+[31m-git config user.name "gab-mat"[m
+[31m-git config user.email "gabriel.matejka@hotmail.com"[m
+[32m+[m
+[32m+[m[32mcreate a new file in the folder: test.txt[m
+[32m+[m
+ git add *[m
+[31m-git commit -m "some init msg"[m
+\ No newline at end of file[m
+[32m+[m[32mgit status[m
+[32m+[m[32mgit commit -m "This is a commit!"[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m
+[32m+[m[32mgit checkout -b branch_01[m
+[32m+[m[32mgit checkout master[m
+[32m+[m[32mgit branch[m
+[32m+[m
+[32m+[m
+[32m+[m[32m--> Create a new repo in github[m
+[32m+[m[32mgit remote add origin https://github.com/gab-mat/masterthesis2.git[m
+[32m+[m[32mgit push -u origin master[m
+[32m+[m
+[32m+[m
+[32m+[m[32mgit remote -v[m
+[32m+[m[32mgit remote rm origin[m
+[41m+[m
+[41m+[m
