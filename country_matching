@@ -1,0 +1,5 @@
+match(df$Listings_Nationality, cult$country)
+
+cult$country[match(df$Listings_Nationality, cult$country)]
+
+cult$pdi[match(df$Listings_Nationality, cult$country)]
